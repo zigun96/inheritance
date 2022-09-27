@@ -30,18 +30,18 @@ public class Inheritance {
 		Student s = new Student();
 		s.name = "±è¹Î¼º";
 		s.age = 16;
-		s.studentID = 128; // @overrideÇÑ ¸É¹ö
+		s.studentID = 128; // »õ·Î Ãß°¡ÇÑ ¸É¹ö
 		s.eat();
 		s.sleep();
-		s.goToSchool(); // @overrideÇÑ ¸É¹ö(¸Þ¼Òµå)
+		s.goToSchool(); //»õ·Î Ãß°¡ÇÑ ¸É¹ö(¸Þ¼Òµå)
 		
 		// Worker °´Ã¼ »ý¼º
 		Worker w = new Worker();
 		w.name = "ºÀÀ±Á¤";
 		w.age = 45;
-		w.workerID = 128; //@overrideÇÑ ¸É¹ö
+		w.workerID = 128; //»õ·Î Ãß°¡ÇÑ ¸É¹ö ¸É¹ö
 		w.eat();
 		w.sleep();
-		w.goToWork(); //@overrideÇÑ ¸É¹ö(¸Þ¼Òµå)
+		w.goToWork(); //»õ·Î Ãß°¡ÇÑ ¸É¹ö(¸Þ¼Òµå)
 	}
 }
